@@ -37,4 +37,85 @@
   form button:hover {
     background-color: #003B5C;
   }
+
+/* Conteneur principal */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f7f8f9;
+    border: 1px solid #00b5e2;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Titre */
+  .container h1 {
+    color: #003b5c;
+    margin-bottom: 20px;
+  }
+  
+  /* Formulaire */
+  form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #003b5c;
+    text-align: left;
+  }
+  
+  form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d9b539;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  form input::placeholder {
+    color: #aaa;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00b5e2;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #003b5c;
+  }
+  
+  /* Conteneur pour les messages */
+  #message-box {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Message succès */
+  #message-box.success {
+    border: 1px solid #00b5e2;
+    background-color: #e0f7fa;
+    color: #003b5c;
+  }
+  
+  /* Message erreur */
+  #message-box.error {
+    border: 1px solid #ff0000;
+    background-color: #ffebee;
+    color: #d32f2f;
+  }
+  
   
